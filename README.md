@@ -19,3 +19,15 @@ readme_text = """#  Wine Data Cleaner
 ---
 
 ## 🛠️ โครงสร้างโปรเจกต์ (Project Structure)
+```text
+wine_project/
+├── core/
+│   ├── templates/
+│   │   └── core/
+│   │       └── upload.html    # หน้าตาเว็บส่วนติดต่อผู้ใช้ (UI Form)
+│   ├── urls.py                # กำหนดเส้นทาง URL ของแอป core
+│   └── views.py               # ตรรกะการคลีนข้อมูลและจัดฟอร์แมต Excel
+├── wine_project/
+│   ├── settings.py            # ตั้งค่าระบบ ความปลอดภัย (Allowed Hosts, CSRF ngrok)
+│   └── urls.py                # รวมเส้นทางหลักของโปรเจกต์
+└── manage.py                  # ไฟล์สั่งรันระบบ Django
