@@ -16,6 +16,11 @@ readme_text = """#  Wine Data Cleaner
   - ระบบ **Autofit อัจฉริยะ** คำนวณความกว้างคอลัมน์ตามความยาวตัวอักษรจริง (รองรับฟอนต์ Cordia New และหักลบสระซ้อนภาษาไทยออกเพื่อไม่ให้ตารางเพี้ยน)
 - **Sheet Selector:** เลือกสลับหรือติ๊กเลือกเฉพาะชีตที่ต้องการส่งออกข้อมูลได้ (`Retail Price`, `Private`, `ต้นทุน`, `HORECA`, `Private-1`)
 
+## 🖼️ ตัวอย่างรูปภาพ (Example Screenshots)
+
+<img src="ex_pg/ex1.jpg" width="500" alt="Example 1">
+<img src="/ex_pg/ex2.jpg" width="500" alt="Example 2">
+<img src="/ex_pg/ex3.jpg" width="500" alt="Example 3">
 ---
 
 ## 🛠️ โครงสร้างโปรเจกต์ (Project Structure)
@@ -33,14 +38,3 @@ wine_project/
 └── manage.py                  # ไฟล์สั่งรันระบบ Django
 
 ---
-
-## 🖼️ ตัวอย่างรูปภาพ (Example Screenshots)
-
-### ตัวอย่างที่ 1
-![Example 1](../ex_pg/ex1.jpg)
-
-### ตัวอย่างที่ 2
-![Example 2](../ex_pg/ex2.jpg)
-
-### ตัวอย่างที่ 3
-![Example 3](../ex_pg/ex3.jpg)
