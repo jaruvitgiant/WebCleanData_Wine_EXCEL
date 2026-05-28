@@ -14,8 +14,8 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-LINE_CHANNEL_SECRET = 'f7dfc12128c5d1e4113c08f10e0c088c'
-LINE_CHANNEL_ACCESS_TOKEN = 'd3tIAlGRQDouVMT6h8at/YS5yavJJgpYgWiHPqZ0VOtu0J7a2C4zVHtbKS3JnvcMZXK0mQIvU0xw8fnBAmVBMy4x7NLQa3Q3xGuTWjaEw1kCKo11PUJxIFDJxBpxEw6yvJmKAJFAUget5dw0ub9t5wdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '********************************'
+LINE_CHANNEL_ACCESS_TOKEN = '************************************************************************************************************************************************************************************************************************'
 
 # Ollama Settings (Local LLM)
 OLLAMA_API_URL = 'http://localhost:11434'
