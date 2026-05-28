@@ -14,31 +14,37 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+LINE_CHANNEL_SECRET = 'f7dfc12128c5d1e4113c08f10e0c088c'
+LINE_CHANNEL_ACCESS_TOKEN = 'd3tIAlGRQDouVMT6h8at/YS5yavJJgpYgWiHPqZ0VOtu0J7a2C4zVHtbKS3JnvcMZXK0mQIvU0xw8fnBAmVBMy4x7NLQa3Q3xGuTWjaEw1kCKo11PUJxIFDJxBpxEw6yvJmKAJFAUget5dw0ub9t5wdB04t89/1O/w1cDnyilFU='
 
-
+# Ollama Settings (Local LLM)
+OLLAMA_API_URL = 'http://localhost:11434'
+OLLAMA_MODEL = 'qwen2.5'  # หรือเปลี่ยนเป็น 'llama3', 'mistral'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-$620s!yo_dg*6c(&8^7!vmfu_#g!jho-h_94kjy02bj_z76#9z'
-
+ 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '7fe3-58-8-113-28.ngrok-free.app',
-    '127.0.0.1',
     'localhost',
+    '127.0.0.1',
+    '3157-58-8-113-28.ngrok-free.app', # 👈 เพิ่มบรรทัดนี้เข้าไป
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://7fe3-58-8-113-28.ngrok-free.app', # ต้องใส่ https:// นำหน้าด้วยเสมอครับ
+    'https://3157-58-8-113-28.ngrok-free.app', # ต้องใส่ https:// นำหน้าด้วยเสมอครับ
 ]
+
 
 # Application definition
 
 INSTALLED_APPS = [
     'core',
+    'orders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

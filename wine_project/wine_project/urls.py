@@ -20,5 +20,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),  # <--- [แก้ไข] เปลี่ยนจาก admin.site.url_counts เป็น admin.site.urls
-    path('', include('core.urls')),
+    path('core/', include('core.urls')),
+    path('', include('orders.urls')),
 ]
