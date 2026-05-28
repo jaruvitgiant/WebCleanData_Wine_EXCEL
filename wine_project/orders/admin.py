@@ -95,7 +95,7 @@ class ProductAdmin(admin.ModelAdmin):
             'fields': ['created_at', 'updated_at'],
             'classes': ['collapse'],
         }),
-    ]
+    ]   
 
     def price_display(self, obj) -> str:
         """แสดงราคาพร้อม format"""
