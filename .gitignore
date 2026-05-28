@@ -9,3 +9,4 @@ wheels/
 # Virtual environments
 .venv
 wine_project/db.sqlite3
+.DS_Store

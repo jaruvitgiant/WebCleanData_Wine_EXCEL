@@ -1,0 +1,10 @@
+Django
+djangorestframework
+psycopg2-binary
+python-dotenv
+google-generativeai
+line-bot-sdk
+celery
+redis
+rapidfuzz
+gunicorn

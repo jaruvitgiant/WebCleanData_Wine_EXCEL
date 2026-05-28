@@ -31,3 +31,16 @@ wine_project/
 │   ├── settings.py            # ตั้งค่าระบบ ความปลอดภัย (Allowed Hosts, CSRF ngrok)
 │   └── urls.py                # รวมเส้นทางหลักของโปรเจกต์
 └── manage.py                  # ไฟล์สั่งรันระบบ Django
+
+---
+
+## 🖼️ ตัวอย่างรูปภาพ (Example Screenshots)
+
+### ตัวอย่างที่ 1
+![Example 1](ex_pg/ex1.jpg)
+
+### ตัวอย่างที่ 2
+![Example 2](ex_pg/ex2.jpg)
+
+### ตัวอย่างที่ 3
+![Example 3](ex_pg/ex3.jpg)
